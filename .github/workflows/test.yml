@@ -12,11 +12,4 @@ jobs:
       - name: Test Auto Commenter
         uses: zt4ff/auto-commenter@v2
         with:
-          type: custom
-          body: |
-            This is custom message
-            It's multiline and it also support github markdown.
-            - list item 1
-            - llist item 2
-
-            [Link to repo](https://github.com/zt4ff/auto-commenter)
+          type: memes
