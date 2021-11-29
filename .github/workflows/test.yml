@@ -1,4 +1,15 @@
-name: Test Auto Commenter
-uses: zt4ff/auto-commenter@v1
-with:
-  type: love_texts
+name: teamwork
+on:
+  pull_request:
+    types: [opened, closed]
+  pull_request_review:
+    types: [submitted]
+  push:
+jobs:
+  auto-commeent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Auto Commenter
+        uses: zt4ff/auto-commenter@v1
+        with:
+          type: love_texts
