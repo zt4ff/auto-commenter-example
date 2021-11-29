@@ -12,5 +12,4 @@ jobs:
       - name: Test Auto Commenter
         uses: zt4ff/auto-commenter@v1.2
         with:
-          type: custom
-          body: Welcome to the coding game stuff
+          type: memes
