@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test Auto Commenter
-        uses: zt4ff/auto-commenter@v1
+        uses: zt4ff/auto-commenter
         with:
           type: love_texts
